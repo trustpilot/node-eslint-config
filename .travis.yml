@@ -9,6 +9,10 @@ cache:
 script:
   - npm test
 
+branches:
+  only:
+    - master
+
 notifications:
   slack:
     rooms:
