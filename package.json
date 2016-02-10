@@ -13,7 +13,7 @@
   },
   "main": "default.js",
   "scripts": {
-    "test": "eslint **/*"
+    "test": "eslint **/*.js"
   },
   "devDependencies": {
     "babel-eslint": "^5.0.0-beta10",

@@ -18,7 +18,6 @@ The React config additionally requires:
 - `eslint-plugin-react@3.x`
 
 ### Usage
-
 ```json
 // .eslintrc
 {
@@ -47,7 +46,6 @@ The React config additionally requires:
 }
 ```
 
-### Summary
-*TODO*
+### Summary *(TODO)*
 - Style things should be warnings
 - Logic things should be errors
