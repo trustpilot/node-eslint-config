@@ -8,8 +8,5 @@
     "./rules/eslint/style.js",
     "./rules/eslint/variables.js",
     "./rules/babel.js"
-  ],
-  "rules": {
-    "no-magic-numbers": 0
-  }
+  ]
 }
