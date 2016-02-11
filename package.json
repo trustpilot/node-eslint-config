@@ -2,10 +2,10 @@
   "name": "eslint-config-trustpilot",
   "version": "0.1.0",
   "description": "Trustpilot's ESLint configuration",
-  "homepage": "https://github.com/trustpilot/eslint-config-trustpilot",
-  "repository": "https://github.com/trustpilot/eslint-config-trustpilot.git",
+  "homepage": "https://github.com/trustpilot/node-eslint-config",
+  "repository": "https://github.com/trustpilot/node-eslint-config.git",
   "bugs": {
-    "url": "https://github.com/trustpilot/eslint-config-trustpilot/issues"
+    "url": "https://github.com/trustpilot/node-eslint-config/issues"
   },
   "license": "MIT",
   "engines": {
@@ -13,11 +13,11 @@
   },
   "main": "default.js",
   "scripts": {
-    "test": "eslint **/*.js"
+    "test": "eslint '**/*.js'"
   },
   "devDependencies": {
     "babel-eslint": "^5.0.0-beta10",
-    "eslint": "^2.0.0-rc.0",
+    "eslint": "^2.0.0-rc.1",
     "eslint-plugin-babel": "^3.0.0",
     "eslint-plugin-html": "^1.3.0",
     "eslint-plugin-react": "^3.16.1"
