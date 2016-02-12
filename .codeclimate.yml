@@ -4,8 +4,8 @@ engines:
     config:
       languages:
         - javascript
-  eslint:
-    enabled: true
+  # eslint:
+  #   enabled: true
   fixme:
     enabled: true
 
