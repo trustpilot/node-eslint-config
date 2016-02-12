@@ -2,7 +2,7 @@
 
 module.exports = {
   "extends": [
-    "trustpilot",
+    "trustpilot/browser",
     "trustpilot/rules/react"
   ]
 };
