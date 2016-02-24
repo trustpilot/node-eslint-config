@@ -48,7 +48,3 @@ The React config additionally requires:
   "extends": "trustpilot/browser"
 }
 ```
-
-### Summary *(TODO)*
-- Style things should be warnings
-- Logic things should be errors
