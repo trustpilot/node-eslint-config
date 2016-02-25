@@ -21,29 +21,29 @@ The React config additionally requires:
 - `eslint-plugin-react@3.x`
 
 ### Usage
+`.eslintrc`
 ```json
-// .eslintrc
 {
   "extends": "trustpilot"
 }
 ```
 
+`.eslintrc` for Mocha tests
 ```json
-// .eslintrc for Mocha tests
 {
   "extends": "trustpilot/test"
 }
 ```
 
+`.eslintrc` for React and JSX
 ```json
-// .eslintrc for React + JSX
 {
   "extends": "trustpilot/react"
 }
 ```
 
+`.eslintrc` for browsers
 ```json
-// .eslintrc for browsers
 {
   "extends": "trustpilot/browser"
 }
