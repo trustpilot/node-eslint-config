@@ -32,8 +32,6 @@ module.exports = {
     "no-div-regex": 0,
     // disallow else after a return in an if
     "no-else-return": 0,
-    // disallow use of labels for anything other then loops and switches
-    "no-empty-label": 0,
     // disallow use of empty destructuring patterns
     "no-empty-pattern": 0,
     // disallow comparisons to null without a type-checking operator
@@ -56,8 +54,8 @@ module.exports = {
     "no-invalid-this": 0,
     // disallow usage of __iterator__ property
     "no-iterator": 0,
-    // disallow use of labeled statements
-    "no-labels": 0,
+    // disallow use of labels for anything other then loops and switches
+    "no-labels": [2, {"allowLoop": true, "allowSwitch": true}],
     // disallow unnecessary nested blocks
     "no-lone-blocks": 0,
     // disallow creation of functions within loops

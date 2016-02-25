@@ -4,8 +4,8 @@ module.exports = {
   "env": {
     "es6": true
   },
-  "ecmaFeatures": {
-    "modules": false
+  "parserOptions": {
+    "ecmaVersion": 6
   },
   "rules": {
     // require braces in arrow function body
@@ -18,10 +18,10 @@ module.exports = {
     "constructor-super": 0,
     // enforce the spacing around the * in generator functions
     "generator-star-spacing": 0,
-    // disallow arrow functions where a condition is expected
-    "no-arrow-condition": 0,
     // disallow modifying variables of class declarations
     "no-class-assign": 0,
+    // disallow arrow functions where they could be confused with comparisons
+    "no-confusing-arrow": 1,
     // disallow modifying variables that are declared using const
     "no-const-assign": 2,
     // disallow duplicate name in class members

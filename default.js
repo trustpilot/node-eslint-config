@@ -14,9 +14,5 @@ module.exports = {
     "trustpilot/rules/eslint/style",
     "trustpilot/rules/eslint/variables",
     "trustpilot/rules/babel"
-  ],
-  "env": {},
-  "ecmaFeatures": {},
-  "globals": {},
-  "rules": {}
+  ]
 };

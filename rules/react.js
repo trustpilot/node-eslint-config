@@ -4,8 +4,10 @@ module.exports = {
   "plugins": [
     "react"
   ],
-  "ecmaFeatures": {
-    "jsx": true
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
   },
   "rules": {
     // Prevent missing displayName in a React component definition

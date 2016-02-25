@@ -33,7 +33,9 @@ module.exports = {
     // specify whether double or single quotes should be used in JSX attributes
     "jsx-quotes": 0,
     // enforces spacing between keys and values in object literal properties
-    "key-spacing": [0, { "beforeColon": false, "afterColon": true }],
+    "key-spacing": [1, { "beforeColon": false, "afterColon": true }],
+    // enforces spacing before and after keywords
+    "keyword-spacing": [1, {"before": true, "after": true, "overrides": {}}],
     // disallow mixed "LF" and "CRLF" as linebreaks
     "linebreak-style": [0, "unix"],
     // enforces empty lines around comments
@@ -110,20 +112,14 @@ module.exports = {
     "semi": [2, "always"],
     // sort variables within the same declaration block
     "sort-vars": 0,
-    // require a space after certain keywords
-    "space-after-keywords": [0, "always"],
     // require or disallow space before blocks
     "space-before-blocks": [0, "always"],
     // require or disallow space before function opening parenthesis
     "space-before-function-paren": [0, "always"],
-    // require a space before certain keywords (fixable)
-    "space-before-keywords": 0,
     // require or disallow spaces inside parentheses
     "space-in-parens": [0, "never"],
     // require spaces around operators
     "space-infix-ops": 0,
-    // require a space after return, throw, and case
-    "space-return-throw-case": 0,
     // Require or disallow spaces before/after unary operators
     "space-unary-ops": [0, { "words": true, "nonwords": false }],
     // require or disallow a space immediately following the // or /* in a comment

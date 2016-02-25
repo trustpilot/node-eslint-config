@@ -10,5 +10,8 @@ module.exports = {
     "node": false,
     "browser": true,
     "jquery": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 5
   }
 };
