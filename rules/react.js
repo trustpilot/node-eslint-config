@@ -40,12 +40,10 @@ module.exports = {
     "react/jsx-no-undef": 0,
     // Enforce PascalCase for user-defined JSX components
     "react/jsx-pascal-case": 0,
-    // Enforce quote style for JSX attributes
-    "react/jsx-quotes": 0,
-    // Enforce propTypes declarations alphabetical sorting
-    "react/jsx-sort-prop-types": 0,
     // Enforce props alphabetical sorting
     "react/jsx-sort-props": 0,
+    // Enforce space before closing bracket
+    "react/jsx-space-before-closing": 0,
     // Prevent React to be incorrectly marked as unused
     "react/jsx-uses-react": 0,
     // Prevent variables used in JSX to be incorrectly marked as unused
@@ -80,6 +78,8 @@ module.exports = {
     "react/self-closing-comp": 0,
     // Enforce component methods order
     "react/sort-comp": 0,
+    // Enforce propTypes declarations alphabetical sorting
+    "react/sort-prop-types": 0,
     // Prevent missing parentheses around multilines JSX
     "react/wrap-multilines": 0
   }
