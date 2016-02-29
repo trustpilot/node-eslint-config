@@ -115,7 +115,7 @@ module.exports = {
     // require or disallow space before blocks
     "space-before-blocks": [0, "always"],
     // require or disallow space before function opening parenthesis
-    "space-before-function-paren": [0, "always"],
+    "space-before-function-paren": [2, { "anonymous": "always", "named": "never" }],
     // require or disallow spaces inside parentheses
     "space-in-parens": [0, "never"],
     // require spaces around operators
