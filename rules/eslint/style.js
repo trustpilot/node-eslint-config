@@ -85,7 +85,7 @@ module.exports = {
     // disallow the use of ternary operators
     'no-ternary': 0,
     // disallow trailing whitespace at the end of lines
-    'no-trailing-spaces': 0,
+    'no-trailing-spaces': 1,
     // disallow dangling underscores in identifiers
     'no-underscore-dangle': 0,
     // disallow the use of Boolean literals in conditional expressions
