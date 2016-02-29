@@ -33,7 +33,7 @@ module.exports = {
     // require method and property shorthand syntax for object literals
     'object-shorthand': 0,
     // suggest using arrow functions as callbacks
-    'prefer-arrow-callback': 1,
+    'prefer-arrow-callback': 0,
     // suggest using of const declaration for variables that are never modified after declared
     'prefer-const': 1,
     // suggest using Reflect methods where applicable
