@@ -103,7 +103,7 @@ module.exports = {
     // require quotes around object literal property names
     'quote-props': 0,
     // specify whether double or single quotes should be used
-    'quotes': [2, 'single'],
+    'quotes': [1, 'single'],
     // Require JSDoc comment
     'require-jsdoc': 0,
     // enforce spacing before and after semicolons
