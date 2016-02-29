@@ -1,8 +1,8 @@
-"use strict";
+'use strict';
 
 module.exports = {
-  "rules": {
+  'rules': {
     // require that all functions are run in strict mode
-    "strict": [1, "global"]
+    'strict': [1, 'global']
   }
 };
