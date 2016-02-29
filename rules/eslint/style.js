@@ -119,7 +119,7 @@ module.exports = {
     // require or disallow spaces inside parentheses
     'space-in-parens': [0, 'never'],
     // require spaces around operators
-    'space-infix-ops': 0,
+    'space-infix-ops': 1,
     // Require or disallow spaces before/after unary operators
     'space-unary-ops': [0, { 'words': true, 'nonwords': false }],
     // require or disallow a space immediately following the // or /* in a comment
