@@ -1,14 +1,17 @@
-"use strict";
+'use strict';
 
 module.exports = {
-  "extends": "trustpilot",
+  'extends': 'trustpilot',
   plugins: [
-    "html"
+    'html'
   ],
-  "env": {
-    "es6": false,
-    "node": false,
-    "browser": true,
-    "jquery": true
+  'env': {
+    'es6': false,
+    'node': false,
+    'browser': true,
+    'jquery': true
+  },
+  'parserOptions': {
+    'ecmaVersion': 5
   }
 };
