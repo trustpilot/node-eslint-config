@@ -43,7 +43,7 @@ module.exports = {
     // specify the maximum depth that blocks can be nested
     'max-depth': [0, 4],
     // specify the maximum length of a line in your program
-    'max-len': [1, 120, 2],
+    'max-len': [2, { 'code': 120, 'tabWidth': 2, 'ignoreComments': true, 'ignoreUrls': true}],
     // specify the maximum depth callbacks can be nested
     'max-nested-callbacks': [0, 2],
     // limits the number of parameters that can be used in the function declaration.
