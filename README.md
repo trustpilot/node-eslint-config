@@ -2,7 +2,6 @@
 
 [![npm](https://img.shields.io/npm/v/eslint-config-trustpilot.svg)](https://www.npmjs.com/package/eslint-config-trustpilot)
 [![Build Status](https://travis-ci.org/trustpilot/node-eslint-config.svg?branch=master)](https://travis-ci.org/trustpilot/node-eslint-config)
-[![Code Climate](https://codeclimate.com/github/trustpilot/node-eslint-config/badges/gpa.svg)](https://codeclimate.com/github/trustpilot/node-eslint-config)
 
 Shared ESLint config for Trustpilot projects.
 
