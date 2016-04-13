@@ -125,6 +125,6 @@ module.exports = {
     // require or disallow a space immediately following the // or /* in a comment
     'spaced-comment': 0,
     // require regex literals to be wrapped in parentheses
-    'wrap-regex': 0
-  }
+    'wrap-regex': 0,
+  },
 };

@@ -9,6 +9,6 @@ module.exports = {
     'babel/object-curly-spacing': 0,
     'babel/object-shorthand': 0,
     'babel/arrow-parens': 0,
-    'babel/no-await-in-loop': 0
-  }
+    'babel/no-await-in-loop': 0,
+  },
 };

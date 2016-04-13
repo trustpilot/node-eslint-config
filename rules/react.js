@@ -2,12 +2,12 @@
 
 module.exports = {
   'plugins': [
-    'react'
+    'react',
   ],
   'parserOptions': {
     'ecmaFeatures': {
-      'jsx': true
-    }
+      'jsx': true,
+    },
   },
   'rules': {
     // Prevent missing displayName in a React component definition
@@ -81,6 +81,6 @@ module.exports = {
     // Enforce propTypes declarations alphabetical sorting
     'react/sort-prop-types': 0,
     // Prevent missing parentheses around multilines JSX
-    'react/wrap-multilines': 0
-  }
+    'react/wrap-multilines': 0,
+  },
 };

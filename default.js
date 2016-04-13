@@ -3,7 +3,7 @@
 module.exports = {
   'parser': 'babel-eslint',
   'plugins': [
-    'babel'
+    'babel',
   ],
   'extends': [
     'trustpilot/rules/eslint/best-practices',
@@ -13,6 +13,6 @@ module.exports = {
     'trustpilot/rules/eslint/strict',
     'trustpilot/rules/eslint/style',
     'trustpilot/rules/eslint/variables',
-    'trustpilot/rules/babel'
-  ]
+    'trustpilot/rules/babel',
+  ],
 };

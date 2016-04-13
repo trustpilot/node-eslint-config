@@ -3,15 +3,15 @@
 module.exports = {
   'extends': 'trustpilot',
   plugins: [
-    'html'
+    'html',
   ],
   'env': {
     'es6': false,
     'node': false,
     'browser': true,
-    'jquery': true
+    'jquery': true,
   },
   'parserOptions': {
-    'ecmaVersion': 5
-  }
+    'ecmaVersion': 5,
+  },
 };
