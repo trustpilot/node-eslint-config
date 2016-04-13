@@ -1,4 +1,8 @@
 {
+  "parser": "babel-eslint",
+  "plugins": [
+    "babel",
+  ],
   "extends": [
     "./rules/eslint/best-practices.js",
     "./rules/eslint/errors.js",

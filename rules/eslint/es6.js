@@ -11,13 +11,13 @@ module.exports = {
     // require braces in arrow function body
     'arrow-body-style': 0,
     // require parens in arrow function arguments
-    'arrow-parens': 1,
+    'arrow-parens': 0, // NOTE - DO NOT TOUCH. Use rule in babel.js
     // require space before/after arrow function's arrow
     'arrow-spacing': 1,
     // verify super() callings in constructors
     'constructor-super': 0,
     // enforce the spacing around the * in generator functions
-    'generator-star-spacing': 0,
+    'generator-star-spacing': 0, // NOTE - DO NOT TOUCH. Use rule in babel.js
     // disallow modifying variables of class declarations
     'no-class-assign': 0,
     // disallow arrow functions where they could be confused with comparisons
@@ -31,7 +31,7 @@ module.exports = {
     // require let or const instead of var
     'no-var': 0,
     // require method and property shorthand syntax for object literals
-    'object-shorthand': 0,
+    'object-shorthand': 0, // NOTE - DO NOT TOUCH. Use rule in babel.js
     // suggest using arrow functions as callbacks
     'prefer-arrow-callback': 0,
     // suggest using of const declaration for variables that are never modified after declared
