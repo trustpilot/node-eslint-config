@@ -3,7 +3,7 @@
 module.exports = {
   'rules': {
     // disallow trailing commas in object literals
-    'comma-dangle': [2, 'never'],
+    'comma-dangle': [2, 'always-multiline'],
     // disallow assignment in conditional expressions
     'no-cond-assign': 2,
     // disallow use of console
@@ -57,6 +57,6 @@ module.exports = {
     // ensure JSDoc comments are valid
     'valid-jsdoc': 0,
     // ensure that the results of typeof are compared against a valid string
-    'valid-typeof': 2
-  }
+    'valid-typeof': 2,
+  },
 };

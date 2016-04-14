@@ -3,6 +3,6 @@
 module.exports = {
   'extends': [
     'trustpilot/browser',
-    'trustpilot/rules/react'
-  ]
+    'trustpilot/rules/react',
+  ],
 };

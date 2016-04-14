@@ -3,6 +3,6 @@
 module.exports = {
   'rules': {
     // require that all functions are run in strict mode
-    'strict': [1, 'global']
-  }
+    'strict': [0, 'global'],
+  },
 };

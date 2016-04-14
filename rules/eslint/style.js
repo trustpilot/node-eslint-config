@@ -3,7 +3,7 @@
 module.exports = {
   'rules': {
     // enforce spacing inside array brackets
-    'array-bracket-spacing': [0, 'never'],
+    'array-bracket-spacing': 0, // NOTE - DO NOT TOUCH. Use rule in babel.js
     // disallow or enforce spaces inside of single line blocks
     'block-spacing': 0,
     // enforce one true brace style
@@ -51,7 +51,7 @@ module.exports = {
     // specify the maximum number of statement allowed in a function
     'max-statements': [0, 10],
     // require a capital letter for constructors
-    'new-cap': 0,
+    'new-cap': 0, // NOTE - DO NOT TOUCH. Use rule in babel.js
     // disallow the omission of parentheses when invoking a constructor with no arguments
     'new-parens': 0,
     // allow/disallow an empty newline after var statement
@@ -91,7 +91,7 @@ module.exports = {
     // disallow the use of Boolean literals in conditional expressions
     'no-unneeded-ternary': 0,
     // require or disallow padding inside curly braces
-    'object-curly-spacing': [0, 'never'],
+    'object-curly-spacing': 0, // NOTE - DO NOT TOUCH. Use rule in babel.js
     // allow just one var statement per function
     'one-var': 0,
     // require assignment operator shorthand where possible or prohibit it entirely
@@ -125,6 +125,6 @@ module.exports = {
     // require or disallow a space immediately following the // or /* in a comment
     'spaced-comment': 0,
     // require regex literals to be wrapped in parentheses
-    'wrap-regex': 0
-  }
+    'wrap-regex': 0,
+  },
 };
