@@ -16,11 +16,11 @@
     "test": "eslint '**/*.js'"
   },
   "devDependencies": {
-    "babel-eslint": "6.0.2",
-    "eslint": "2.7.0",
+    "babel-eslint": "6.0.3",
+    "eslint": "2.8.0",
     "eslint-plugin-babel": "3.2.0",
     "eslint-plugin-html": "1.4.0",
-    "eslint-plugin-react": "4.3.0"
+    "eslint-plugin-react": "5.0.1"
   },
   "peerDependencies": {
     "babel-eslint": "6.x",
@@ -29,6 +29,6 @@
   },
   "optionalDependencies": {
     "eslint-plugin-html": "1.x",
-    "eslint-plugin-react": "4.x"
+    "eslint-plugin-react": "5.x"
   }
 }
