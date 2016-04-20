@@ -5,4 +5,7 @@ module.exports = {
     'trustpilot/browser',
     'trustpilot/rules/react',
   ],
+  'parserOptions': {
+    'sourceType': 'module',
+  },
 };

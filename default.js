@@ -5,6 +5,9 @@ module.exports = {
   'plugins': [
     'babel',
   ],
+  'parserOptions': {
+    'sourceType': 'module',
+  },
   'extends': [
     'trustpilot/rules/eslint/best-practices',
     'trustpilot/rules/eslint/errors',
