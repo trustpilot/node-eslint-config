@@ -19,7 +19,7 @@ The browser config additionally requires:
 - `eslint-plugin-html@1.x`
 
 The React config additionally requires:
-- `eslint-plugin-react@4.x`
+- `eslint-plugin-react@5.x`
 
 ### Usage
 `.eslintrc`

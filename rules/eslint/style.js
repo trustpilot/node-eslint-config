@@ -7,13 +7,13 @@ module.exports = {
     // disallow or enforce spaces inside of single line blocks
     'block-spacing': 0,
     // enforce one true brace style
-    'brace-style': [0, '1tbs'],
+    'brace-style': [2, '1tbs'],
     // require camel case names
-    'camelcase': 0,
+    'camelcase': 1,
     // enforce spacing before and after comma
-    'comma-spacing': 0,
+    'comma-spacing': 2,
     // enforce one true comma style
-    'comma-style': 0,
+    'comma-style': 1,
     // require or disallow padding inside computed properties
     'computed-property-spacing': [0, 'never'],
     // enforces consistent naming when capturing the current execution context
@@ -41,7 +41,7 @@ module.exports = {
     // enforces empty lines around comments
     'lines-around-comment': 0,
     // specify the maximum depth that blocks can be nested
-    'max-depth': [0, 4],
+    'max-depth': [1, 4],
     // specify the maximum length of a line in your program
     'max-len': [2, { 'code': 120, 'tabWidth': 2, 'ignoreComments': true, 'ignoreUrls': true}],
     // specify the maximum depth callbacks can be nested
@@ -65,7 +65,7 @@ module.exports = {
     // disallow comments inline after code
     'no-inline-comments': 0,
     // disallow if as the only statement in an else block
-    'no-lonely-if': 0,
+    'no-lonely-if': 1,
     // disallow mixed spaces and tabs for indentation
     'no-mixed-spaces-and-tabs': [2, false],
     // disallow multiple empty lines
@@ -89,11 +89,11 @@ module.exports = {
     // disallow dangling underscores in identifiers
     'no-underscore-dangle': 0,
     // disallow the use of Boolean literals in conditional expressions
-    'no-unneeded-ternary': 0,
+    'no-unneeded-ternary': 2,
     // require or disallow padding inside curly braces
     'object-curly-spacing': 0, // NOTE - DO NOT TOUCH. Use rule in babel.js
     // allow just one var statement per function
-    'one-var': 0,
+    'one-var': [2, 'never'],
     // require assignment operator shorthand where possible or prohibit it entirely
     'operator-assignment': [0, 'always'],
     // enforce operators to be placed before or after line breaks
@@ -123,7 +123,7 @@ module.exports = {
     // Require or disallow spaces before/after unary operators
     'space-unary-ops': [0, { 'words': true, 'nonwords': false }],
     // require or disallow a space immediately following the // or /* in a comment
-    'spaced-comment': 0,
+    'spaced-comment': 1,
     // require regex literals to be wrapped in parentheses
     'wrap-regex': 0,
   },
