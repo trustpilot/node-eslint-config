@@ -7,7 +7,7 @@ module.exports = {
     // disallow or enforce spaces inside of single line blocks
     'block-spacing': 0,
     // enforce one true brace style
-    'brace-style': [0, '1tbs'],
+    'brace-style': [2, '1tbs'],
     // require camel case names
     'camelcase': 0,
     // enforce spacing before and after comma
@@ -93,7 +93,7 @@ module.exports = {
     // require or disallow padding inside curly braces
     'object-curly-spacing': 0, // NOTE - DO NOT TOUCH. Use rule in babel.js
     // allow just one var statement per function
-    'one-var': 0,
+    'one-var': [2, 'never'],
     // require assignment operator shorthand where possible or prohibit it entirely
     'operator-assignment': [0, 'always'],
     // enforce operators to be placed before or after line breaks
