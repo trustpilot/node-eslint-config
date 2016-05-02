@@ -3,19 +3,19 @@
 module.exports = {
   'extends': 'trustpilot',
   plugins: [
-    'html',
+    'html'
   ],
   'rules': {
-    'comma-dangle': [2, 'never'],
+    'comma-dangle': [2, 'never']
   },
   'env': {
     'es6': false,
     'node': false,
     'browser': true,
-    'jquery': true,
+    'jquery': true
   },
   'parserOptions': {
     'ecmaVersion': 5,
-    'sourceType': 'script',
-  },
+    'sourceType': 'script'
+  }
 };

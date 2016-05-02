@@ -3,6 +3,6 @@
 module.exports = {
   'extends': 'trustpilot',
   'env': {
-    'mocha': true,
-  },
+    'mocha': true
+  }
 };
