@@ -67,7 +67,7 @@ module.exports = {
     // disallow if as the only statement in an else block
     'no-lonely-if': 1,
     // disallow mixed spaces and tabs for indentation
-    'no-mixed-spaces-and-tabs': [4, false],
+    'no-mixed-spaces-and-tabs': [2, false],
     // disallow multiple empty lines
     'no-multiple-empty-lines': [0, {'max': 2}],
     // disallow negated conditions
