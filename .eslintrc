@@ -1,16 +1,16 @@
 {
-  "parser": "babel-eslint",
-  "plugins": [
-    "babel",
-  ],
-  "extends": [
-    "./rules/eslint/best-practices.js",
-    "./rules/eslint/errors.js",
-    "./rules/eslint/es6.js",
-    "./rules/eslint/node.js",
-    "./rules/eslint/strict.js",
-    "./rules/eslint/style.js",
-    "./rules/eslint/variables.js",
-    "./rules/babel.js"
-  ]
+    "parser": "babel-eslint",
+    "plugins": [
+        "babel"
+    ],
+    "extends": [
+        "./rules/eslint/best-practices.js",
+        "./rules/eslint/errors.js",
+        "./rules/eslint/es6.js",
+        "./rules/eslint/node.js",
+        "./rules/eslint/strict.js",
+        "./rules/eslint/style.js",
+        "./rules/eslint/variables.js",
+        "./rules/babel.js"
+    ]
 }
