@@ -2,11 +2,12 @@
 
 module.exports = {
   'extends': 'trustpilot',
-  plugins: [
+  'plugins': [
     'html'
   ],
   'rules': {
-    'comma-dangle': [2, 'never']
+    'comma-dangle': [2, 'never'],
+    'prefer-template': 0
   },
   'env': {
     'es6': false,
