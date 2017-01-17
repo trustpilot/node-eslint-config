@@ -51,9 +51,9 @@ module.exports = {
     // Prevent usage of deprecated methods
     'react/no-deprecated': 2,
     // Prevent usage of setState in componentDidMount
-    'react/no-did-mount-set-state': [2, 'allow-in-func'],
+    'react/no-did-mount-set-state': 2,
     // Prevent usage of setState in componentDidUpdate
-    'react/no-did-update-set-state': [2, 'allow-in-func'],
+    'react/no-did-update-set-state': 2,
     // Prevent direct mutation of this.state
     'react/no-direct-mutation-state': 2,
     // Prevent usage of isMounted
