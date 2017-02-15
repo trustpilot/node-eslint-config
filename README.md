@@ -1,13 +1,13 @@
 # eslint-config-trustpilot
 
-[![npm](https://img.shields.io/npm/v/eslint-config-trustpilot.svg)](https://www.npmjs.com/package/eslint-config-trustpilot)
-[![Build Status](https://travis-ci.org/trustpilot/node-eslint-config.svg?branch=master)](https://travis-ci.org/trustpilot/node-eslint-config)
+[![Build Status](https://travis-ci.org/trustpilot/node-eslint-config.svg?branch=master)](https://travis-ci.org/trustpilot/node-eslint-config) [![npm](https://img.shields.io/npm/v/eslint-config-trustpilot.svg)](https://www.npmjs.com/package/eslint-config-trustpilot)
 
 Shared ESLint config for Trustpilot projects.
 
-### Install
+## Installation
+
 ```
-$ npm install eslint-config-trustpilot --save-dev
+npm install eslint-config-trustpilot --save-dev
 ```
 
 You must also `npm install` the following peer dependencies:
@@ -21,31 +21,19 @@ The browser config additionally requires:
 The React config additionally requires:
 - `eslint-plugin-react@5.x`
 
-### Usage
-`.eslintrc`
+## Getting Started
+
+Add `"extends": "trustpilot"` to your `.eslintrc` file:
+
 ```json
 {
   "extends": "trustpilot"
 }
 ```
 
-`.eslintrc` for Mocha tests
-```json
-{
-  "extends": "trustpilot/test"
-}
-```
+This package includes the following complete and ready to use configurations:
 
-`.eslintrc` for React and JSX
-```json
-{
-  "extends": "trustpilot/react"
-}
-```
-
-`.eslintrc` for browsers
-```json
-{
-  "extends": "trustpilot/browser"
-}
-```
+- `trustpilot` - ES6 configuration
+- `trustpilot/test` - [Mocha](https://mochajs.org/) tests
+- `trustpilot/react` - React and JSX
+- `trustpilot/browser` - ES5 browser
