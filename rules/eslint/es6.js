@@ -11,7 +11,7 @@ module.exports = {
     // require braces in arrow function body
     'arrow-body-style': 0,
     // require parens in arrow function arguments
-    'arrow-parens': 0, // NOTE - DO NOT TOUCH. Use rule in babel.js
+    'arrow-parens': 1,
     // require space before/after arrow function's arrow
     'arrow-spacing': 1,
     // verify super() callings in constructors
