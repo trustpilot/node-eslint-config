@@ -4,9 +4,6 @@
   "description": "Shared ESLint config for Trustpilot projects",
   "homepage": "https://github.com/trustpilot/node-eslint-config",
   "repository": "https://github.com/trustpilot/node-eslint-config.git",
-  "bugs": {
-    "url": "https://github.com/trustpilot/node-eslint-config/issues"
-  },
   "license": "MIT",
   "engines": {
     "node": ">= 0.10"
