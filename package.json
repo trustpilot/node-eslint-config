@@ -6,9 +6,6 @@
   "repository": "https://github.com/trustpilot/node-eslint-config.git",
   "author": "Trustpilot",
   "license": "MIT",
-  "engines": {
-    "node": ">= 0.10"
-  },
   "main": "default.js",
   "scripts": {
     "test": "eslint '**/*.js'"
