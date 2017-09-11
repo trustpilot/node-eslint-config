@@ -98,7 +98,7 @@ module.exports = {
     // Enforce PascalCase for user-defined JSX components
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-pascal-case.md
     'react/jsx-pascal-case': ['error', {
-      allowAllCaps: true,
+      allowAllCaps: false,
       ignore: [],
     }],
 
