@@ -285,7 +285,7 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-tag-spacing.md
     'react/jsx-tag-spacing': ['error', {
       closingSlash: 'never',
-      beforeSelfClosing: 'always',
+      beforeSelfClosing: 'allow',
       afterOpening: 'never'
     }],
 
