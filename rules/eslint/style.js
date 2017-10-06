@@ -10,6 +10,14 @@ module.exports = {
     'brace-style': [2, '1tbs'],
     // require camel case names
     'camelcase': 1,
+    // allow trailing commas in object literals
+    'comma-dangle': ['error', {
+      arrays: 'always-multiline',
+      objects: 'always-multiline',
+      imports: 'always-multiline',
+      exports: 'always-multiline',
+      functions: 'ignore',
+    }],
     // enforce spacing before and after comma
     'comma-spacing': 2,
     // enforce one true comma style

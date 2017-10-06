@@ -6,7 +6,6 @@ module.exports = {
     'html'
   ],
   'rules': {
-    'comma-dangle': [2, 'never'],
     'prefer-template': 0
   },
   'env': {
