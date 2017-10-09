@@ -15,6 +15,6 @@ module.exports = {
     // Guard against awaiting async functions inside of a loop
     'babel/no-await-in-loop': 0,
     // Require a particular separator between properties in Flow object types
-    'babel/flow-object-type': 0
-  }
+    'babel/flow-object-type': 0,
+  },
 };
