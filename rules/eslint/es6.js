@@ -29,7 +29,7 @@ module.exports = {
     // disallow to use this/super before super() calling in constructors.
     'no-this-before-super': 0,
     // require let or const instead of var
-    'no-var': 0,
+    'no-var': 2,
     // require method and property shorthand syntax for object literals
     'object-shorthand': 0, // NOTE - DO NOT TOUCH. Use rule in babel.js
     // suggest using arrow functions as callbacks
