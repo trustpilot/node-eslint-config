@@ -36,4 +36,4 @@ This package includes the following complete and ready to use configurations:
 - `trustpilot` - ES6 configuration
 - `trustpilot/test` - [Mocha](https://mochajs.org/) tests
 - `trustpilot/react` - React and JSX
-- `trustpilot/browser` - ES5 browser
+- `trustpilot/browser` - ES6 browser
