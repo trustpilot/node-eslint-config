@@ -12,11 +12,11 @@ module.exports = {
     'camelcase': 1,
     // allow trailing commas in object literals
     'comma-dangle': ['error', {
-      arrays: 'always-multiline',
-      objects: 'always-multiline',
-      imports: 'always-multiline',
-      exports: 'always-multiline',
-      functions: 'ignore',
+      arrays: 'only-multiline',
+      objects: 'only-multiline',
+      imports: 'only-multiline',
+      exports: 'only-multiline',
+      functions: 'ignore'
     }],
     // enforce spacing before and after comma
     'comma-spacing': 2,
