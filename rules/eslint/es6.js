@@ -21,7 +21,7 @@ module.exports = {
     // disallow modifying variables of class declarations
     'no-class-assign': 0,
     // disallow arrow functions where they could be confused with comparisons
-    'no-confusing-arrow': 1,
+    'no-confusing-arrow': 0,
     // disallow modifying variables that are declared using const
     'no-const-assign': 2,
     // disallow duplicate name in class members
