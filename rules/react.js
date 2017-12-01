@@ -46,7 +46,7 @@ module.exports = {
 
     // Validate closing bracket location in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-closing-bracket-location.md
-    'react/jsx-closing-bracket-location': ['error', 'props-aligned'],
+    'react/jsx-closing-bracket-location': ['error', 'after-props'],
 
     // Validate closing tag location in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-closing-tag-location.md
