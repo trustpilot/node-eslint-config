@@ -11,15 +11,15 @@ npm install eslint-config-trustpilot --save-dev
 ```
 
 You must also `npm install` the following peer dependencies:
-- `eslint@2.x` (obviously)
-- `babel-eslint@5.x`
-- `eslint-plugin-babel@3.x`
+- `eslint` (obviously)
+- `babel-eslint`
+- `eslint-plugin-babel`
 
 The browser config additionally requires:
-- `eslint-plugin-html@1.x`
+- `eslint-plugin-html`
 
 The React config additionally requires:
-- `eslint-plugin-react@5.x`
+- `eslint-plugin-react`
 
 ## Getting Started
 
