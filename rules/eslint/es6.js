@@ -9,15 +9,8 @@ module.exports = {
   },
   'rules': {
     // require braces in arrow function body
-    'arrow-body-style': 0,
-    // require parens in arrow function arguments
-    'arrow-parens': 1,
-    // require space before/after arrow function's arrow
-    'arrow-spacing': 1,
     // verify super() callings in constructors
     'constructor-super': 0,
-    // enforce the spacing around the * in generator functions
-    'generator-star-spacing': 0, // NOTE - DO NOT TOUCH. Use rule in babel.js
     // disallow modifying variables of class declarations
     'no-class-assign': 0,
     // disallow arrow functions where they could be confused with comparisons
