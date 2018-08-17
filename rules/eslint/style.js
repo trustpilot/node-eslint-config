@@ -2,7 +2,6 @@
 
 module.exports = {
   'rules': {
-    // enforce spacing inside array brackets
     // require camel case names
     'camelcase': 1,
     // allow trailing commas in object literals

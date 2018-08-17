@@ -8,7 +8,6 @@ module.exports = {
     'ecmaVersion': 6,
   },
   'rules': {
-    // require braces in arrow function body
     // verify super() callings in constructors
     'constructor-super': 0,
     // disallow modifying variables of class declarations
