@@ -4,6 +4,7 @@ module.exports = {
   'parser': 'babel-eslint',
   'plugins': [
     'babel',
+    'prettier',
   ],
   'parserOptions': {
     'sourceType': 'module',
@@ -17,5 +18,8 @@ module.exports = {
     'trustpilot/rules/eslint/style',
     'trustpilot/rules/eslint/variables',
     'trustpilot/rules/babel',
+    'trustpilot/rules/prettier',
+    'prettier',
+    'prettier/react',
   ],
 };
