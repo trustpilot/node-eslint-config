@@ -19,7 +19,5 @@ module.exports = {
     'trustpilot/rules/eslint/variables',
     'trustpilot/rules/babel',
     'trustpilot/rules/prettier',
-    'prettier',
-    'prettier/react',
   ],
 };

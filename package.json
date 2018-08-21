@@ -13,7 +13,6 @@
   "peerDependencies": {
     "babel-eslint": "7.2.3",
     "eslint": "3.19.0",
-    "eslint-config-prettier": "3.0.1",
     "eslint-plugin-babel": "4.1.2",
     "eslint-plugin-html": "2.0.3",
     "eslint-plugin-prettier": "2.6.2",
