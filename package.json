@@ -8,7 +8,7 @@
   "license": "MIT",
   "main": "default.js",
   "scripts": {
-    "test": "eslint '**/*.js'"
+    "test": "echo 'No tests available'"
   },
   "peerDependencies": {
     "babel-eslint": "7.2.3",
