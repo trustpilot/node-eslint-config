@@ -12,10 +12,6 @@ module.exports = {
   // View link below for react rules documentation
   // https://github.com/yannickcr/eslint-plugin-react#list-of-supported-rules
   rules: {
-    // Specify whether double or single quotes should be used in JSX attributes
-    // http://eslint.org/docs/rules/jsx-quotes
-    'jsx-quotes': ['error', 'prefer-double'],
-
     'class-methods-use-this': ['error', {
       exceptMethods: [
         'render',
@@ -44,18 +40,6 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-boolean-value.md
     'react/jsx-boolean-value': ['error', 'never', { always: [] }],
 
-    // Validate closing bracket location in JSX
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-closing-bracket-location.md
-    'react/jsx-closing-bracket-location': ['error', 'after-props'],
-
-    // Validate closing tag location in JSX
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-closing-tag-location.md
-    'react/jsx-closing-tag-location': 'error',
-
-    // Enforce or disallow spaces inside of curly braces in JSX attributes
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-spacing.md
-    'react/jsx-curly-spacing': ['error', 'never', { allowMultiline: false }],
-
     // Enforce event handler naming conventions in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-handler-names.md
     'react/jsx-handler-names': ['off', {
@@ -64,16 +48,10 @@ module.exports = {
     }],
 
     // Validate props indentation in JSX
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent-props.md
-    'react/jsx-indent-props': ['error', 2],
 
     // Validate JSX has key prop when in array or iterator
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-key.md
     'react/jsx-key': 'off',
-
-    // Limit maximum of props on a single line in JSX
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-max-props-per-line.md
-    'react/jsx-max-props-per-line': ['error', { maximum: 1, when: 'multiline' }],
 
     // Prevent usage of .bind() in JSX props
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-bind.md
@@ -204,27 +182,6 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-comp.md
     'react/sort-comp': ['off'],
 
-    // Prevent missing parentheses around multilines JSX
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-wrap-multilines.md
-    'react/jsx-wrap-multilines': ['error', {
-      declaration: true,
-      assignment: true,
-      return: true,
-      arrow: true,
-    }],
-
-    // Require that the first prop in a JSX element be on a new line when the element is multiline
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-first-prop-new-line.md
-    'react/jsx-first-prop-new-line': ['error', 'multiline-multiprop'],
-
-    // Enforce spacing around jsx equals signs
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-equals-spacing.md
-    'react/jsx-equals-spacing': ['error', 'never'],
-
-    // Enforce JSX indentation
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent.md
-    'react/jsx-indent': ['error', 2],
-
     // Disallow target="_blank" on links
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-target-blank.md
     'react/jsx-no-target-blank': 'error',
@@ -280,19 +237,6 @@ module.exports = {
     // Prevent passing of children as props
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-children-prop.md
     'react/no-children-prop': 'error',
-
-    // Validate whitespace in and around the JSX opening and closing brackets
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-tag-spacing.md
-    'react/jsx-tag-spacing': ['error', {
-      closingSlash: 'never',
-      beforeSelfClosing: 'allow',
-      afterOpening: 'never',
-    }],
-
-    // Enforce spaces before the closing bracket of self-closing JSX elements
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-space-before-closing.md
-    // Deprecated in favor of jsx-tag-spacing
-    'react/jsx-space-before-closing': ['off', 'always'],
 
     // Prevent usage of Array index in keys
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-array-index-key.md

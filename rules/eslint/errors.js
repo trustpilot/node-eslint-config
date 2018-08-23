@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  'rules': {
+  rules: {
     // disallow assignment in conditional expressions
     'no-cond-assign': 2,
     // disallow use of console
@@ -28,8 +28,6 @@ module.exports = {
     'no-extra-boolean-cast': 2,
     // disallow unnecessary parentheses
     'no-extra-parens': 0,
-    // disallow unnecessary semicolons
-    'no-extra-semi': 2,
     // disallow overwriting functions written as function declarations
     'no-func-assign': 2,
     // disallow function or variable declarations in nested blocks
@@ -55,6 +53,6 @@ module.exports = {
     // ensure JSDoc comments are valid
     'valid-jsdoc': 0,
     // ensure that the results of typeof are compared against a valid string
-    'valid-typeof': 2,
-  },
+    'valid-typeof': 2
+  }
 };

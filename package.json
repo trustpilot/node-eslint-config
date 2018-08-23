@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-trustpilot",
-  "version": "3.3.0",
+  "version": "4.0.0",
   "description": "Shared ESLint config for Trustpilot projects",
   "homepage": "https://github.com/trustpilot/node-eslint-config",
   "repository": "https://github.com/trustpilot/node-eslint-config.git",
@@ -10,11 +10,13 @@
   "scripts": {
     "test": "eslint '**/*.js'"
   },
-  "devDependencies": {
+  "peerDependencies": {
     "babel-eslint": "7.2.3",
     "eslint": "3.19.0",
     "eslint-plugin-babel": "4.1.2",
     "eslint-plugin-html": "2.0.3",
-    "eslint-plugin-react": "6.10.3"
+    "eslint-plugin-prettier": "2.6.2",
+    "eslint-plugin-react": "6.10.3",
+    "prettier": "1.14.2"
   }
 }
