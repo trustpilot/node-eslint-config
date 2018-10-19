@@ -2,24 +2,29 @@
 
 [![Build Status](https://travis-ci.org/trustpilot/node-eslint-config.svg?branch=master)](https://travis-ci.org/trustpilot/node-eslint-config) [![npm](https://img.shields.io/npm/v/eslint-config-trustpilot.svg)](https://www.npmjs.com/package/eslint-config-trustpilot)
 
-Shared ESLint config for Trustpilot projects.
+Shared eslint and prettier config for Trustpilot projects.
+
+In short, we use prettier for code formatting and eslint for everything else.
 
 ## Installation
 
 ```
-npm install eslint-config-trustpilot --save-dev
+yarn add --dev eslint-config-trustpilot
 ```
 
-You must also `npm install` the following peer dependencies:
-- `eslint` (obviously)
-- `babel-eslint`
-- `eslint-plugin-babel`
+
+You also need to install the following peer dependencies:
+
+```
+yarn add --dev eslint babel-eslint eslint-plugin-babel eslint-plugin-prettier prettier
+```
+
 
 The browser config additionally requires:
-- `eslint-plugin-html`
+- `yarn add --dev eslint-plugin-html`
 
 The React config additionally requires:
-- `eslint-plugin-react`
+- `yarn add --dev eslint-plugin-react`
 
 ## Getting Started
 
