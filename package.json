@@ -11,12 +11,13 @@
     "test": "echo 'No tests available'"
   },
   "peerDependencies": {
-    "babel-eslint": "7.2.3",
-    "eslint": "3.19.0",
-    "eslint-plugin-babel": "4.1.2",
-    "eslint-plugin-html": "2.0.3",
-    "eslint-plugin-prettier": "2.6.2",
-    "eslint-plugin-react": "6.10.3",
-    "prettier": "1.14.2"
+    "babel-eslint": "7.x",
+    "eslint": "3.x",
+    "eslint-plugin-babel": "4.x",
+    "eslint-plugin-html": "2.x",
+    "eslint-plugin-prettier": "2.x",
+    "eslint-plugin-react": "6.x",
+    "eslint-plugin-react-hooks": "1.x",
+    "prettier": "1.x"
   }
 }

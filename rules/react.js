@@ -1,7 +1,5 @@
 module.exports = {
-  plugins: [
-    'react',
-  ],
+  plugins: ['react', 'react-hooks'],
 
   parserOptions: {
     ecmaFeatures: {
@@ -12,21 +10,24 @@ module.exports = {
   // View link below for react rules documentation
   // https://github.com/yannickcr/eslint-plugin-react#list-of-supported-rules
   rules: {
-    'class-methods-use-this': ['error', {
-      exceptMethods: [
-        'render',
-        'getInitialState',
-        'getDefaultProps',
-        'getChildContext',
-        'componentWillMount',
-        'componentDidMount',
-        'componentWillReceiveProps',
-        'shouldComponentUpdate',
-        'componentWillUpdate',
-        'componentDidUpdate',
-        'componentWillUnmount',
-      ],
-    }],
+    'class-methods-use-this': [
+      'error',
+      {
+        exceptMethods: [
+          'render',
+          'getInitialState',
+          'getDefaultProps',
+          'getChildContext',
+          'componentWillMount',
+          'componentDidMount',
+          'componentWillReceiveProps',
+          'shouldComponentUpdate',
+          'componentWillUpdate',
+          'componentDidUpdate',
+          'componentWillUnmount',
+        ],
+      },
+    ],
 
     // Prevent missing displayName in a React component definition
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/display-name.md
@@ -42,11 +43,14 @@ module.exports = {
 
     // Enforce event handler naming conventions in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-handler-names.md
-    'react/jsx-handler-names': ['off', {
-      eventHandlerPrefix: 'handle',
-      eventHandlerPropPrefix: 'on',
-    }],
-    
+    'react/jsx-handler-names': [
+      'off',
+      {
+        eventHandlerPrefix: 'handle',
+        eventHandlerPropPrefix: 'on',
+      },
+    ],
+
     // Validate JSX indentation
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent.md
     'react/jsx-indent': 'off',
@@ -54,18 +58,21 @@ module.exports = {
     // Validate props indentation in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent-props.md
     'react/jsx-indent-props': 'off',
-    
+
     // Validate JSX has key prop when in array or iterator
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-key.md
     'react/jsx-key': 'off',
 
     // Prevent usage of .bind() in JSX props
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-bind.md
-    'react/jsx-no-bind': ['error', {
-      ignoreRefs: true,
-      allowArrowFunctions: true,
-      allowBind: false,
-    }],
+    'react/jsx-no-bind': [
+      'error',
+      {
+        ignoreRefs: true,
+        allowArrowFunctions: true,
+        allowBind: false,
+      },
+    ],
 
     // Prevent duplicate props in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-duplicate-props.md
@@ -81,32 +88,41 @@ module.exports = {
 
     // Enforce PascalCase for user-defined JSX components
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-pascal-case.md
-    'react/jsx-pascal-case': ['error', {
-      allowAllCaps: false,
-      ignore: [],
-    }],
+    'react/jsx-pascal-case': [
+      'error',
+      {
+        allowAllCaps: false,
+        ignore: [],
+      },
+    ],
 
     // Enforce propTypes declarations alphabetical sorting
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-prop-types.md
-    'react/sort-prop-types': ['off', {
-      ignoreCase: true,
-      callbacksLast: false,
-      requiredFirst: false,
-    }],
+    'react/sort-prop-types': [
+      'off',
+      {
+        ignoreCase: true,
+        callbacksLast: false,
+        requiredFirst: false,
+      },
+    ],
 
     // Deprecated in favor of react/jsx-sort-props
     'react/jsx-sort-prop-types': 'off',
 
     // Enforce props alphabetical sorting
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-props.md
-    'react/jsx-sort-props': ['off', {
-      ignoreCase: true,
-      callbacksLast: false,
-      shorthandFirst: false,
-      shorthandLast: false,
-      noSortAlphabetically: false,
-      reservedFirst: true,
-    }],
+    'react/jsx-sort-props': [
+      'off',
+      {
+        ignoreCase: true,
+        callbacksLast: false,
+        shorthandFirst: false,
+        shorthandLast: false,
+        noSortAlphabetically: false,
+        reservedFirst: true,
+      },
+    ],
 
     // Prevent React to be incorrectly marked as unused
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-react.md
@@ -226,11 +242,13 @@ module.exports = {
 
     // Prevent unused propType definitions
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unused-prop-types.md
-    'react/no-unused-prop-types': ['error', {
-      customValidators: [
-      ],
-      skipShapeProps: true,
-    }],
+    'react/no-unused-prop-types': [
+      'error',
+      {
+        customValidators: [],
+        skipShapeProps: true,
+      },
+    ],
 
     // Require style prop value be an object or var
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/style-prop-object.md
@@ -277,15 +295,20 @@ module.exports = {
 
     // Enforces consistent naming for boolean props
     // https://github.com/yannickcr/eslint-plugin-react/blob/73abadb697034b5ccb514d79fb4689836fe61f91/docs/rules/boolean-prop-naming.md
-    'react/boolean-prop-naming': ['off', {
-      propTypeNames: ['bool', 'mutuallyExclusiveTrueProps'],
-      rule: '^(is|has)[A-Z]([A-Za-z0-9]?)+',
-    }],
+    'react/boolean-prop-naming': [
+      'off',
+      {
+        propTypeNames: ['bool', 'mutuallyExclusiveTrueProps'],
+        rule: '^(is|has)[A-Z]([A-Za-z0-9]?)+',
+      },
+    ],
 
     // Prevents common casing typos
     // https://github.com/yannickcr/eslint-plugin-react/blob/73abadb697034b5ccb514d79fb4689836fe61f91/docs/rules/no-typos.md
     // TODO: enable, semver-major
     'react/no-typos': 'off',
+
+    'react-hooks/rules-of-hooks': 'error',
   },
 
   settings: {
