@@ -13,8 +13,8 @@
   "peerDependencies": {
     "babel-eslint": "10.x",
     "eslint": "5.x",
-    "eslint-plugin-babel": "4.x",
-    "eslint-plugin-html": "4.x",
+    "eslint-plugin-babel": "5.x",
+    "eslint-plugin-html": "5.x",
     "eslint-plugin-prettier": "3.x",
     "eslint-plugin-react": "7.x",
     "eslint-plugin-react-hooks": "1.x",
