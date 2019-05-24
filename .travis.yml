@@ -1,6 +1,21 @@
 language: node_js
-node_js:
+
+# Keep empty to use version from .nvmrc
+node_js: null
 
 cache:
   directories:
     - node_modules
+
+install:
+  - npm ci
+
+after_success:
+  - npx semantic-release
+
+branches:
+  only:
+    - master
+
+notifications:
+  email: false
