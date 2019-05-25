@@ -12,19 +12,23 @@ In short, we use prettier for code formatting and eslint for everything else.
 yarn add --dev eslint-config-trustpilot
 ```
 
-
 You also need to install the following peer dependencies:
 
 ```
 yarn add --dev eslint babel-eslint eslint-plugin-babel eslint-plugin-prettier prettier
 ```
 
-
 The browser config additionally requires:
+
 - `yarn add --dev eslint-plugin-html`
 
 The React config additionally requires:
+
 - `yarn add --dev eslint-plugin-react`
+
+The Typescript config additionally requires:
+
+- `yarn add --dev @typescript-eslint/eslint-plugin @typescript-eslint/parser`
 
 ## Getting Started
 
@@ -42,3 +46,4 @@ This package includes the following complete and ready to use configurations:
 - `trustpilot/test` - [Mocha](https://mochajs.org/) tests
 - `trustpilot/react` - React and JSX
 - `trustpilot/browser` - ES6 browser
+- `trustpilot/typescript` - Typescript (Use alongside `trustpilot/react` to have both `typescript` and `react`)
