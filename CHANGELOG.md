@@ -1,3 +1,14 @@
+## [4.1.1](https://github.com/trustpilot/node-eslint-config/compare/v4.1.0...v4.1.1) (2019-05-29)
+
+
+### Docs
+
+* Add typescript config in readme ([9cfcb11268d141dff53f444b4f8a48ea947e6275](https://github.com/trustpilot/node-eslint-config/commit/9cfcb11268d141dff53f444b4f8a48ea947e6275))
+
+### Fix
+
+* Use trustpilot prettier rules for typescript preset ([cec8dd51d0ab43c8a69eb8510a6890374b51ff06](https://github.com/trustpilot/node-eslint-config/commit/cec8dd51d0ab43c8a69eb8510a6890374b51ff06))
+
 # [4.1.0](https://github.com/trustpilot/node-eslint-config/compare/v4.0.0...v4.1.0) (2019-05-24)
 
 
