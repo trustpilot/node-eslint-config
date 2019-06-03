@@ -3,8 +3,7 @@ module.exports = {
   extends: [
     'plugin:@typescript-eslint/recommended',
     'prettier/@typescript-eslint',
-    'plugin:prettier/recommended',
-    'trustpilot/prettier'
+    'trustpilot/rules/prettier'
   ],
   parserOptions: {
     ecmaVersion: 2018,
