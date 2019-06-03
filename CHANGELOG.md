@@ -1,3 +1,14 @@
+## [4.2.1](https://github.com/trustpilot/node-eslint-config/compare/v4.2.0...v4.2.1) (2019-06-03)
+
+
+### Chore
+
+* Setup eslint locally ([f9e40201d73c04c46e9abf8ba3496a6fd1df1b5c](https://github.com/trustpilot/node-eslint-config/commit/f9e40201d73c04c46e9abf8ba3496a6fd1df1b5c))
+
+### Fix
+
+* Fix typo in prettier preset ([c9e1a35e786af7a94943268c70775b080f42232a](https://github.com/trustpilot/node-eslint-config/commit/c9e1a35e786af7a94943268c70775b080f42232a))
+
 # [4.2.0](https://github.com/trustpilot/node-eslint-config/compare/v4.1.2...v4.2.0) (2019-06-03)
 
 
