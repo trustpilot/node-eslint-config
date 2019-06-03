@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-trustpilot",
-  "version": "4.1.2",
+  "version": "4.2.0",
   "description": "Shared ESLint config for Trustpilot projects",
   "homepage": "https://github.com/trustpilot/node-eslint-config",
   "repository": "https://github.com/trustpilot/node-eslint-config.git",

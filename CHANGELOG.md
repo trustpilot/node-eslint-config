@@ -1,3 +1,10 @@
+# [4.2.0](https://github.com/trustpilot/node-eslint-config/compare/v4.1.2...v4.2.0) (2019-06-03)
+
+
+### New
+
+* Manually bump version to ignore old corrupted versions ([d5eba1b6def62eb35f6fd2d54028a2361fb2a391](https://github.com/trustpilot/node-eslint-config/commit/d5eba1b6def62eb35f6fd2d54028a2361fb2a391))
+
 ## [4.1.2](https://github.com/trustpilot/node-eslint-config/compare/v4.1.1...v4.1.2) (2019-06-03)
 
 
