@@ -1,3 +1,14 @@
+## [4.1.2](https://github.com/trustpilot/node-eslint-config/compare/v4.1.1...v4.1.2) (2019-06-03)
+
+
+### Chore
+
+* Remove broken travis cache ([a9dca5ad7809af047cb28c7b9b1c4eaeaae01612](https://github.com/trustpilot/node-eslint-config/commit/a9dca5ad7809af047cb28c7b9b1c4eaeaae01612))
+
+### Fix
+
+* Add prettier recommended rules before overrinding some of them ([f8d03dee5b084e5defa49a625a468bf856bcc9c5](https://github.com/trustpilot/node-eslint-config/commit/f8d03dee5b084e5defa49a625a468bf856bcc9c5))
+
 ## [4.1.1](https://github.com/trustpilot/node-eslint-config/compare/v4.1.0...v4.1.1) (2019-05-29)
 
 
