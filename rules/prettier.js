@@ -3,7 +3,7 @@
 module.exports = {
   extends: [
     'plugin:prettier/recommended',
-  ]
+  ],
   rules: {
     // Override default Prettier configuration
     'prettier/prettier': [
