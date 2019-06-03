@@ -1,13 +1,13 @@
 'use strict';
 
 module.exports = {
-  'env': {
-    'es6': true,
+  env: {
+    es6: true,
   },
-  'parserOptions': {
-    'ecmaVersion': 6,
+  parserOptions: {
+    ecmaVersion: 6,
   },
-  'rules': {
+  rules: {
     // verify super() callings in constructors
     'constructor-super': 0,
     // disallow modifying variables of class declarations

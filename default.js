@@ -1,14 +1,12 @@
 'use strict';
 
 module.exports = {
-  'parser': 'babel-eslint',
-  'plugins': [
-    'babel',
-  ],
-  'parserOptions': {
-    'sourceType': 'module',
+  parser: 'babel-eslint',
+  plugins: ['babel'],
+  parserOptions: {
+    sourceType: 'module',
   },
-  'extends': [
+  extends: [
     'trustpilot/rules/eslint/best-practices',
     'trustpilot/rules/eslint/errors',
     'trustpilot/rules/eslint/es6',

@@ -1,9 +1,9 @@
 'use strict';
 
 module.exports = {
-  'rules': {
+  rules: {
     // require camel case names
-    'camelcase': 1,
+    camelcase: 1,
     // allow trailing commas in object literals
     // enforces consistent naming when capturing the current execution context
     'consistent-this': [0, 'that'],
@@ -20,7 +20,7 @@ module.exports = {
     // specify the maximum depth that blocks can be nested
     'max-depth': [1, 4],
     // specify the maximum length of a line in your program
-    'max-len': [1, { 'code': 120, 'tabWidth': 2, 'ignoreComments': true, 'ignoreUrls': true}],
+    'max-len': [1, { code: 120, tabWidth: 2, ignoreComments: true, ignoreUrls: true }],
     // specify the maximum depth callbacks can be nested
     'max-nested-callbacks': [0, 2],
     // limits the number of parameters that can be used in the function declaration.
