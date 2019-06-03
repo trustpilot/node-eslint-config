@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  'rules': {
+  rules: {
     // Ignores capitalized decorators (@Decorator)
     'babel/new-cap': 0,
     // Doesn't fail when using object spread (...obj)

@@ -1,8 +1,6 @@
 {
   "parser": "babel-eslint",
-  "plugins": [
-    "babel",
-  ],
+  "plugins": ["babel"],
   "extends": [
     "./rules/eslint/best-practices.js",
     "./rules/eslint/errors.js",
@@ -11,6 +9,7 @@
     "./rules/eslint/strict.js",
     "./rules/eslint/style.js",
     "./rules/eslint/variables.js",
-    "./rules/babel.js"
+    "./rules/babel.js",
+    "./rules/prettier.js"
   ]
 }

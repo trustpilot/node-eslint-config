@@ -7,6 +7,10 @@
   "author": "Trustpilot",
   "license": "MIT",
   "main": "default.js",
+  "scripts": {
+    "lint": "eslint --ext .js .",
+    "lint:fix": "npm run lint -- --fix"
+  },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "1.x",
     "@typescript-eslint/parser": "1.x",
@@ -26,14 +30,21 @@
     "@semantic-release/github": "5.2.10",
     "@semantic-release/npm": "5.1.7",
     "@semantic-release/release-notes-generator": "7.1.4",
+    "babel-eslint": "10.0.1",
     "commitlint": "7.6.1",
     "conventional-changelog-eslint": "3.0.1",
+    "eslint": "5.16.0",
+    "eslint-config-prettier": "4.3.0",
+    "eslint-plugin-babel": "5.3.0",
+    "eslint-plugin-prettier": "3.1.0",
     "husky": "2.3.0",
+    "prettier": "1.17.1",
     "semantic-release": "15.13.12"
   },
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "npm run lint"
     }
   }
 }

@@ -1,10 +1,10 @@
 'use strict';
 
 module.exports = {
-  'env': {
-    'node': true,
+  env: {
+    node: true,
   },
-  'rules': {
+  rules: {
     // enforce return after a callback
     'callback-return': 1,
     // disallow require() outside of the top-level module scope

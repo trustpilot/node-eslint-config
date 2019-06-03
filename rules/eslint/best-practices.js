@@ -1,23 +1,23 @@
 'use strict';
 
 module.exports = {
-  'rules': {
+  rules: {
     // Enforces getter/setter pairs in objects
     'accessor-pairs': 0,
     // treat var statements as if they were block scoped
     'block-scoped-var': 0,
     // specify the maximum cyclomatic complexity allowed in a program
-    'complexity': [0, 11],
+    complexity: [0, 11],
     // require return statements to either always or never specify values
     'consistent-return': 0,
     // specify curly brace conventions for all control statements
-    'curly': [2, 'all'],
+    curly: [2, 'all'],
     // require default case in switch statements
     'default-case': 0,
     // encourages use of dot notation whenever possible
-    'dot-notation': [1, { 'allowKeywords': true }],
+    'dot-notation': [1, { allowKeywords: true }],
     // require the use of === and !==
-    'eqeqeq': 2,
+    eqeqeq: 2,
     // make sure for-in loops have an if statement
     'guard-for-in': 0,
     // disallow the use of alert, confirm, and prompt
@@ -53,7 +53,7 @@ module.exports = {
     // disallow usage of __iterator__ property
     'no-iterator': 0,
     // disallow use of labels for anything other then loops and switches
-    'no-labels': [2, {'allowLoop': true, 'allowSwitch': true}],
+    'no-labels': [2, { allowLoop: true, allowSwitch: true }],
     // disallow unnecessary nested blocks
     'no-lone-blocks': 0,
     // disallow creation of functions within loops
@@ -104,16 +104,16 @@ module.exports = {
     // disallow use of void operator
     'no-void': 0,
     // disallow usage of configurable warning terms in comments: e.g. todo
-    'no-warning-comments': [0, { 'terms': ['todo', 'fixme', 'xxx'], 'location': 'start' }],
+    'no-warning-comments': [0, { terms: ['todo', 'fixme', 'xxx'], location: 'start' }],
     // disallow use of the with statement
     'no-with': 0,
     // require use of the second argument for parseInt()
-    'radix': 0,
+    radix: 0,
     // requires to declare all vars on top of their containing scope
     'vars-on-top': 0,
     // require immediate function invocation to be wrapped in parentheses
     'wrap-iife': 0,
     // require or disallow Yoda conditions
-    'yoda': [0, 'never'],
+    yoda: [0, 'never'],
   },
 };

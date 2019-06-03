@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  'rules': {
+  rules: {
     // enforce or disallow variable initializations at definition
     'init-declarations': 0,
     // disallow the catch clause parameter name being the same as a variable in the outer scope
@@ -21,7 +21,7 @@ module.exports = {
     // disallow use of undefined variable
     'no-undefined': 2,
     // disallow declaration of variables that are not used in the code, except unused rest variables
-    'no-unused-vars': [2, {'vars': 'local', 'args': 'after-used', 'ignoreRestSiblings': true}],
+    'no-unused-vars': [2, { vars: 'local', args: 'after-used', ignoreRestSiblings: true }],
     // disallow use of variables before they are defined
     'no-use-before-define': 2,
   },

@@ -1,9 +1,7 @@
 'use strict';
 
 module.exports = {
-  extends: [
-    'plugin:prettier/recommended',
-  ]
+  extends: ['plugin:prettier/recommended'],
   rules: {
     // Override default Prettier configuration
     'prettier/prettier': [
@@ -13,8 +11,8 @@ module.exports = {
         printWidth: 100,
         singleQuote: true,
         tabWidth: 2,
-        trailingComma: 'es5'
-      }
-    ]
-  }
+        trailingComma: 'es5',
+      },
+    ],
+  },
 };
