@@ -15,7 +15,7 @@ yarn add --dev eslint-config-trustpilot
 You also need to install the following peer dependencies:
 
 ```
-yarn add --dev eslint babel-eslint eslint-plugin-babel eslint-plugin-prettier prettier
+yarn add --dev eslint babel-eslint eslint-plugin-babel eslint-plugin-prettier eslint-config-prettier prettier
 ```
 
 The browser config additionally requires:
