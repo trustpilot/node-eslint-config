@@ -309,6 +309,7 @@ module.exports = {
     'react/no-typos': 'off',
 
     'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
   },
 
   settings: {
