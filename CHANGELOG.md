@@ -1,3 +1,10 @@
+# [4.3.0](https://github.com/trustpilot/node-eslint-config/compare/v4.2.1...v4.3.0) (2019-06-05)
+
+
+### New
+
+* Add react-hooks/exhaustive-deps rule ([14e7376f800fd6c88dece520783d58937480f837](https://github.com/trustpilot/node-eslint-config/commit/14e7376f800fd6c88dece520783d58937480f837))
+
 ## [4.2.1](https://github.com/trustpilot/node-eslint-config/compare/v4.2.0...v4.2.1) (2019-06-03)
 
 
