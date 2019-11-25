@@ -3,6 +3,10 @@ language: node_js
 # Keep empty to use version from .nvmrc
 node_js: null
 
+before_install:
+  - git clone -b 'v1' --depth 1 https://$GITHUB_TOKEN@github.com/trustpilot/build-scripts.git
+  - build-scripts/travis/init
+
 install:
   - npm ci
 
