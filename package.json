@@ -12,15 +12,15 @@
     "lint:fix": "npm run lint -- --fix"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "1.x",
-    "@typescript-eslint/parser": "1.x",
+    "@typescript-eslint/eslint-plugin": "2.x",
+    "@typescript-eslint/parser": "2.x",
     "babel-eslint": "10.x",
     "eslint": "5.x",
     "eslint-plugin-babel": "5.x",
     "eslint-plugin-html": "5.x",
     "eslint-plugin-prettier": "3.x",
     "eslint-plugin-react": "7.x",
-    "eslint-plugin-react-hooks": "^1.2.0",
+    "eslint-plugin-react-hooks": "2.x",
     "prettier": "1.x"
   },
   "devDependencies": {
