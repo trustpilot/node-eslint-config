@@ -1,3 +1,17 @@
+# [4.4.0](https://github.com/trustpilot/node-eslint-config/compare/v4.3.0...v4.4.0) (2019-11-28)
+
+
+### Update
+
+* Bumps devDependencies ([be733e7](https://github.com/trustpilot/node-eslint-config/commit/be733e7c28e1e2968a691b87d36fee74af459cf2))
+* Bumps peerDependencies ([2300c12](https://github.com/trustpilot/node-eslint-config/commit/2300c12ca57424e13020f4103140df336172c224))
+
+### Upgrade
+
+* Bump eslint-utils from 1.3.1 to 1.4.2 ([044c705](https://github.com/trustpilot/node-eslint-config/commit/044c705e31ede3c3cf7b3c5c599eba8e7a7ce951))
+* Bump lodash.template from 4.4.0 to 4.5.0 ([440ccea](https://github.com/trustpilot/node-eslint-config/commit/440ccea87e9a17ab7c472718f1e907a4e34c9a17))
+* Bump mixin-deep from 1.3.1 to 1.3.2 ([1b63e80](https://github.com/trustpilot/node-eslint-config/commit/1b63e80938b8fcc1f6230ae439ad90645dd9d72f))
+
 # [4.3.0](https://github.com/trustpilot/node-eslint-config/compare/v4.2.1...v4.3.0) (2019-06-05)
 
 
