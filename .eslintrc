@@ -9,7 +9,6 @@
     "./rules/eslint/strict.js",
     "./rules/eslint/style.js",
     "./rules/eslint/variables.js",
-    "./rules/babel.js",
-    "./rules/prettier.js"
+    "./rules/babel.js"
   ]
 }
