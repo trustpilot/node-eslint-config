@@ -22,7 +22,7 @@ module.exports = {
     // specify the maximum length of a line in your program
     "max-len": [
       1,
-      { code: 80, tabWidth: 2, ignoreComments: true, ignoreUrls: true }
+      { code: 80, tabWidth: 2, ignoreComments: true, ignoreUrls: true },
     ],
     // specify the maximum depth callbacks can be nested
     "max-nested-callbacks": [0, 2],
@@ -67,6 +67,6 @@ module.exports = {
     // Require JSDoc comment
     "require-jsdoc": 0,
     // sort variables within the same declaration block
-    "sort-vars": 0
-  }
+    "sort-vars": 0,
+  },
 };

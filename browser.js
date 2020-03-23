@@ -1,8 +1,8 @@
-'use strict';
+"use strict";
 
 module.exports = {
-  extends: 'trustpilot',
-  plugins: ['html'],
+  extends: "trustpilot",
+  plugins: ["html"],
   env: {
     node: false,
     browser: true,
