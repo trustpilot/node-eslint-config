@@ -8,8 +8,6 @@ install:
 
 script:
   - npm run lint
-
-after_success:
   - npx semantic-release
 
 branches:
