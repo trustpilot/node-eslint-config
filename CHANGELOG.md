@@ -1,3 +1,28 @@
+# [4.5.0](https://github.com/trustpilot/node-eslint-config/compare/v4.4.0...v4.5.0) (2020-04-06)
+
+
+### Build
+
+* Move deploy script to fail build if deploy fails ([56c0d6f](https://github.com/trustpilot/node-eslint-config/commit/56c0d6ff97d9c9912cc2d7e208446fb541222ead))
+* Use adequate node version ([57c7fd2](https://github.com/trustpilot/node-eslint-config/commit/57c7fd21c22ee9abf199d8cce04c1059ea202704))
+
+### Docs
+
+* Use npm in examples ([2285259](https://github.com/trustpilot/node-eslint-config/commit/2285259fb13b35def28a3432ad73da813455a895))
+
+### Fix
+
+* Dogfood the prettier rules ([1d347d1](https://github.com/trustpilot/node-eslint-config/commit/1d347d17d655c4ac65768f80165d05033ac60025))
+
+### Update
+
+* Use prettier 2.0 and adopt their styles completely ([aee1126](https://github.com/trustpilot/node-eslint-config/commit/aee1126f14729a28a618b48c95dd103b6fb794ee))
+
+### Upgrade
+
+* Bump npm from 6.13.1 to 6.13.4 ([dd3b1a2](https://github.com/trustpilot/node-eslint-config/commit/dd3b1a2dd787c89de6ad7fba24541c221054d0c8))
+* Update the dependencies ([cc88d18](https://github.com/trustpilot/node-eslint-config/commit/cc88d1897e49ea0553f56c906b724309f5c60a3d))
+
 # [4.4.0](https://github.com/trustpilot/node-eslint-config/compare/v4.3.0...v4.4.0) (2019-11-28)
 
 
