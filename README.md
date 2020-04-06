@@ -9,26 +9,26 @@ In short, we use prettier for code formatting and eslint for everything else.
 ## Installation
 
 ```
-yarn add --dev eslint-config-trustpilot
+npm i -D eslint-config-trustpilot
 ```
 
 You also need to install the following peer dependencies:
 
 ```
-yarn add --dev eslint babel-eslint eslint-plugin-babel eslint-plugin-prettier eslint-config-prettier prettier
+npm i -D eslint babel-eslint eslint-plugin-babel eslint-plugin-prettier eslint-config-prettier prettier
 ```
 
 The browser config additionally requires:
 
-- `yarn add --dev eslint-plugin-html`
+- `npm i -D eslint-plugin-html`
 
 The React config additionally requires:
 
-- `yarn add --dev eslint-plugin-react`
+- `npm i -D eslint-plugin-react`
 
 The Typescript config additionally requires:
 
-- `yarn add --dev @typescript-eslint/eslint-plugin @typescript-eslint/parser`
+- `npm i -D @typescript-eslint/eslint-plugin @typescript-eslint/parser`
 
 ## Getting Started
 

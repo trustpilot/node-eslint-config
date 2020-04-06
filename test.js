@@ -1,7 +1,7 @@
-'use strict';
+"use strict";
 
 module.exports = {
-  extends: 'trustpilot',
+  extends: "trustpilot",
   env: {
     mocha: true,
   },

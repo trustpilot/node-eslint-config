@@ -1,15 +1,14 @@
 module.exports = {
-  parser: '@typescript-eslint/parser',
+  parser: "@typescript-eslint/parser",
   extends: [
-    'plugin:@typescript-eslint/recommended',
-    'prettier/@typescript-eslint',
-    'trustpilot/rules/prettier',
+    "plugin:@typescript-eslint/recommended",
+    "prettier/@typescript-eslint",
   ],
   parserOptions: {
     ecmaVersion: 2018,
-    sourceType: 'module',
+    sourceType: "module",
   },
   rules: {
-    '@typescript-eslint/explicit-function-return-type': 'off',
+    "@typescript-eslint/explicit-function-return-type": "off",
   },
 };
