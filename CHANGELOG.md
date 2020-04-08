@@ -1,3 +1,10 @@
+## [4.5.1](https://github.com/trustpilot/node-eslint-config/compare/v4.5.0...v4.5.1) (2020-04-08)
+
+
+### Fix
+
+* Extend eslint-config-prettier, turns off rules that prettier handle ([4075087](https://github.com/trustpilot/node-eslint-config/commit/407508724e011be25f91e3bfcd86dccf80da424c))
+
 # [4.5.0](https://github.com/trustpilot/node-eslint-config/compare/v4.4.0...v4.5.0) (2020-04-06)
 
 
