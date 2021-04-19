@@ -10,6 +10,6 @@
     "./rules/eslint/style.js",
     "./rules/eslint/variables.js",
     "./rules/babel.js",
-    "./rules/prettier.js"
+    "prettier"
   ]
 }

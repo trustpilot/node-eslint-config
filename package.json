@@ -12,16 +12,16 @@
     "lint:fix": "npm run lint -- --fix"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "2.x",
-    "@typescript-eslint/parser": "2.x",
+    "@typescript-eslint/eslint-plugin": "4.x",
+    "@typescript-eslint/parser": "4.x",
     "babel-eslint": "10.x",
-    "eslint": "5.x",
+    "eslint": "7.x",
     "eslint-plugin-babel": "5.x",
-    "eslint-plugin-html": "5.x",
+    "eslint-plugin-html": "6.x",
     "eslint-plugin-prettier": "3.x",
     "eslint-plugin-react": "7.x",
-    "eslint-plugin-react-hooks": "2.x",
-    "prettier": "1.x"
+    "eslint-plugin-react-hooks": "4.x",
+    "prettier": "2.x"
   },
   "devDependencies": {
     "@semantic-release/changelog": "5.0.1",
@@ -33,12 +33,12 @@
     "babel-eslint": "10.1.0",
     "commitlint": "10.0.0",
     "conventional-changelog-eslint": "3.0.8",
-    "eslint": "7.7.0",
-    "eslint-config-prettier": "6.11.0",
+    "eslint": "7.24.0",
+    "eslint-config-prettier": "8.2.0",
     "eslint-plugin-babel": "5.3.1",
-    "eslint-plugin-prettier": "3.1.4",
+    "eslint-plugin-prettier": "3.4.0",
     "husky": "4.2.5",
-    "prettier": "2.0.5",
+    "prettier": "2.2.1",
     "semantic-release": "17.4.2"
   },
   "husky": {
