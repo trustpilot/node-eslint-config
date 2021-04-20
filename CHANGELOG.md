@@ -1,3 +1,21 @@
+# [5.0.0](https://github.com/trustpilot/node-eslint-config/compare/v4.5.1...v5.0.0) (2021-04-20)
+
+
+### Chore
+
+* Close vulnerabilities ([3e03df1](https://github.com/trustpilot/node-eslint-config/commit/3e03df128321e943fe3391e5ac49449a168a205c))
+* Remove eslint-plugin-prettier dependencies ([a52f4ca](https://github.com/trustpilot/node-eslint-config/commit/a52f4ca0ee483f80bec80f56e5d05fbf75f842ac))
+* Run npm audit fix ([09e95a9](https://github.com/trustpilot/node-eslint-config/commit/09e95a9ab3a7db85eb726a1a6ddf99c0aa551b3e))
+
+### New
+
+* Update ESLint / Prettier dependencies ([78bd440](https://github.com/trustpilot/node-eslint-config/commit/78bd44065cd42cf8191a6f36515e1ecb9b8d4919))
+
+### Upgrade
+
+* Bump npm from 6.14.3 to 6.14.6 ([194a49e](https://github.com/trustpilot/node-eslint-config/commit/194a49e2cbcc9783353dbfb77ae44a9eb18f2a9f))
+* Bump semantic-release from 17.1.1 to 17.2.3 ([d69e176](https://github.com/trustpilot/node-eslint-config/commit/d69e1760c91c21adcb619cca30a1c0a07aac689e))
+
 ## [4.5.1](https://github.com/trustpilot/node-eslint-config/compare/v4.5.0...v4.5.1) (2020-04-08)
 
 
